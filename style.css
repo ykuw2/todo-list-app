@@ -1,0 +1,17 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Trebuchet MS', Arial;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#first{
+    color: yellowgreen;
+    text-align: center;
+    margin-top: 10px;
+}
+
