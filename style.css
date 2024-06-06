@@ -1,17 +1,25 @@
 body{
     background-color: darkcyan;
     font-family: 'Trebuchet MS', Arial;
+    text-align: center;
 }
 
 h1{
     color:white;
-    text-align: center;
     text-transform: uppercase;
 }
 
 #first{
     color: yellowgreen;
-    text-align: center;
     margin-top: 10px;
 }
 
+#second{
+    color: darkorange;
+    margin-top: 10px;
+}
+
+#third{
+    color: indigo;
+    margin-top: 10px;
+}
