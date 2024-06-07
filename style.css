@@ -6,16 +6,16 @@ body{
 
 h1{
     color:white;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Transforming the text into uppercase */
 }
 
 #first{
-    color: limegreen;
-    margin-top: 10px;
+    color: lightgray;
+    margin-top: 10px; 
 }
 
 #second{
-    color: lightgray;
+    color: limegreen;
     margin-top: 10px;
 }
 
@@ -24,7 +24,7 @@ h1{
     margin-top: 10px;
 }
 
-input, .enter{
+input, #enter{
     width: 50px; 
     height: 30px; 
     padding: 5px; 
@@ -32,24 +32,51 @@ input, .enter{
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
-    transition: all 0.75s ease;
 }
 
 input{
-    min-width: 50%;
+    min-width: 50%; /* Mininum width */
 }
 
-.enter{
+#enter{
     background-color:blue;
-    content:"Enter";
     color: white;
 }
 
-.enter:hover{
+#enter:hover{
     background-color: mediumturquoise;
     color: green;
 }
 
+ul{
+    display: inline-block; /* Sets the list as center */
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    background-color: paleturquoise;
+    border-radius: 5px;
+    border: 3px solid lightblue;
+    width: 600px;
+    text-transform: capitalize; /* Captialize the inputted text */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+li > button{
+    font-weight: bold;
+    border: none;
+    float: right; /* Float the X button to the right */
+    background: none;
+    color:black;
+}
+
+li:hover{
+    background-color: limegreen;
+    border: 3px solid limegreen;
+}
 
 
 
