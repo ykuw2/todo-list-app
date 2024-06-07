@@ -1,6 +1,6 @@
 body{
-    background-color: darkcyan;
-    font-family: 'Trebuchet MS', Arial;
+    background-color: SteelBlue;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
@@ -10,16 +10,46 @@ h1{
 }
 
 #first{
-    color: yellowgreen;
+    color: limegreen;
     margin-top: 10px;
 }
 
 #second{
-    color: darkorange;
+    color: lightgray;
     margin-top: 10px;
 }
 
 #third{
-    color: indigo;
+    color: lightpink;
     margin-top: 10px;
 }
+
+input, .enter{
+    width: 50px; 
+    height: 30px; 
+    padding: 5px; 
+    margin: 1px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.75s ease;
+}
+
+input{
+    min-width: 50%;
+}
+
+.enter{
+    background-color:blue;
+    content:"Enter";
+    color: white;
+}
+
+.enter:hover{
+    background-color: mediumturquoise;
+    color: green;
+}
+
+
+
+
