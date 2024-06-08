@@ -5,8 +5,8 @@ The main objective of this project was to utilize JavaScript as the interaction 
 By completing this project, I learned more in depth about the user inputs and how to change them in the frontend. Most of the code is written by me; with some parts looked/used as a guide or functions I did not know much about.
 
 If you want to try out the app, here it is: https://ykuw2.github.io/todo-list-app/. 
-
 An example of the usage is shown below:
+
 <img width="600" alt="image" src="https://github.com/ykuw2/todo-list-app/assets/67178278/ca22763c-f55d-43b8-ab7a-4cd3ccc67bbe">
 
 The items will be automatically be capitalized, and put in a "container" below the input block.
