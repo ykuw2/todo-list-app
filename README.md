@@ -1,6 +1,7 @@
 # To-Do List App
 
 This is my second small project that uses HTML, CSS, and JavaScript. Inspiration was taken from this site: https://codepen.io/JohnPaulFich/pen/MXmzzM?editors=0110.
+
 The main objective of this project was to utilize JavaScript as the interaction aspect of the app, such as adding a new item, deleting them, marking them as complete, etc. 
 By completing this project, I learned more in depth about the user inputs and how to change them in the frontend. Most of the code is written by me; with some parts looked/used as a guide or functions I did not know much about.
 
