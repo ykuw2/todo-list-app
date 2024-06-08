@@ -19,6 +19,12 @@ function createListItem(){
     deleteButton.onclick = function(){
         this.parentElement.style.display = "None"; //When the button is clicked, display it is none; i.e. delete the item
     }
+
+    function completedItem(){
+        li.classList.toggle("done"); //Toggling when the item is pressed or not
+    }
+
+    li.addEventListener("click", completedItem); //When the item is clicked, then the item turns green or turns to its original color.
 }
 
 function makeItemAfterClick(){
@@ -32,6 +38,8 @@ function makeItemAfterKeyPress(event){
         createListItem();
     }
 }
+
+
 
 enterButton.addEventListener("click", makeItemAfterClick); //When the enter button is "clicked", then execute the function
  
