@@ -78,5 +78,10 @@ li:hover{
     border: 3px solid limegreen;
 }
 
+.done{
+   background: limegreen !important; /* Add more importance to a property/value than normal. In this case, the color and the border. */
+   border: 3px solid limegreen !important;
+}
+
 
 
